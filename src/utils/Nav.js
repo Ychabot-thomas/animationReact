@@ -2,8 +2,14 @@ import React from "react"
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom"
 import Home from "../pages/Home"
 import ReactSpring from "../pages/React Spring/ReactSpring"
+import Framer from "../pages/Framer/Framer"
 
 const linkNav = [
+  {
+    name: "Framer",
+    path: "/framer",
+    component: Framer,
+  },
   {
     name: "React Spring",
     path: "/react-spring",
